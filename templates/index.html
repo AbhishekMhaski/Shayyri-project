@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shayari App</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: white;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .box {
+            background: rgba(0,0,0,0.3);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 24px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: white;
+            color: black;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>💖 Shayari 💖</h1>
+        <p>{{ shayari }}</p>
+        <br>
+        <button onclick="window.location.reload()">New Shayari</button>
+    </div>
+</body>
+</html>
